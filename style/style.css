@@ -1,0 +1,231 @@
+<html>
+
+<style>
+
+body{
+	background:red;
+}
+
+#header
+{
+height:auto;
+width:960px;
+background:#008080;
+padding:0px;
+margin:auto;
+
+
+}
+#top
+{
+height:120px;
+width:960px;
+background:white;
+margin:auto;
+
+
+
+}
+#menu
+{
+height:40px;
+width:960px;
+background:gray;
+margin:auto;
+position:relative;
+top:-14px;
+line-height:36px;
+
+}
+
+#menu li
+{
+list-style:none;
+display:inline;	
+float:left;	
+line-height:36px;
+padding:0px;
+margin-right:5px;
+}
+#menu a
+{
+	text-decoration:none;
+	color:white;
+	margin-left:0px;
+	padding:0px;
+	
+}
+/* 
+#menu a:hover
+{
+	color:black;
+	font-family:bold;
+	font-size:17px;
+	text-decoration:underline;
+} */
+
+#menu ul ul
+{
+	position:absolute;
+	display:none;
+	margin:0px;
+}
+#menu ul li:hover>ul
+{
+	display:block;
+}
+
+#left
+{
+height:auto;
+width:160px;
+background:black;
+margin:auto;
+float:left;
+top:190px;
+opacity:0.8;
+}
+#title
+{
+background:white;
+padding:10px;
+color:black;
+font-size:22px;
+font-family:bolder;	
+}
+#cats li
+{
+	list-style:none;
+	color:white;
+	line-height:5px;
+	padding:10px;
+	
+	
+}
+
+#cats a
+{
+	text-decoration:none;
+	color:white;
+}
+ #cats a:hover
+{
+	color:red;
+	font-family:bold;
+	font-size:18px;
+	text-decoration:underline;
+}
+
+#cats ul li:hover
+{
+	display:block;
+	margin-left:150px;
+	background:red;
+}
+
+#left_middile
+{
+background:white;
+padding:10px;
+color:black;
+font-size:22px;
+font-family:bolder;	
+}
+#middle li
+{
+	list-style:none;
+	color:white;
+	line-height:20px;
+	padding:0px;
+	
+	
+}
+#middle a
+{
+	text-decoration:none;
+	color:white;
+}
+#middle a:hover
+{
+	color:red;
+	font-family:bold;
+	font-size:18px;
+	text-decoration:underline;
+}
+#footer
+{
+height:50px;
+width:960px;
+
+background:gray;
+position:relative;
+
+text-align:center;	
+float:left;
+line-height:40px;
+top:-10px;
+	
+}
+#right
+{
+	background:black;
+	position:relative;
+	
+	
+	color:white;
+	height:46px;
+	width:710px;
+	float:right;
+	top:-14px;
+	
+
+	
+}
+#right #leftsec
+{
+	float:right;
+	line-height:40px;
+	
+	
+}
+.product_box
+{
+	width:850px;
+	
+	
+	padding:50px;
+	margin-left:55px;
+	margin-bottom:10px;
+	margin-top:30px;
+	margin-right:20px;
+	text-align:center;
+	
+	height:auto;
+}
+#single_pro
+{
+	float:left;
+	margin:20px;
+	padding:10px;
+	position:relative;
+	top:-90px;
+	left:25px;
+	
+	
+	
+	
+}
+#single_pro img
+{
+	border:1px solid black;
+	
+}
+
+
+
+
+
+
+</style>
+</body>
+</html>
